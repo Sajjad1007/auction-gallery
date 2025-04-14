@@ -1,0 +1,10 @@
+@import "tailwindcss";
+@plugin "daisyui";
+
+@theme {
+  --font-poppins: Poppins, sans-serif;
+  --font-sora: Sora, sans-serif;
+  --color-blue: #003ea4;
+  --color-gold: #ffd337;
+  --color-navy: #0e2954;
+}
