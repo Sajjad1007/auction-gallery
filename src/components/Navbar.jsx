@@ -58,18 +58,18 @@ const Navbar = () => {
           <span className="text-gold font-bold">Gallery</span>
         </div>
       </div>
-      <div className="navbar-center hidden lg:flex">
-        <ul className="flex gap-3 font-poppins">
-          <li className="btn btn-sm btn-ghost px-4 h-9 font-medium rounded-md text-sm">
+      <div className="hidden lg:flex">
+        <ul className="flex gap-1.5 xl:gap-3 font-poppins">
+          <li className="btn btn-sm btn-ghost px-4 h-9 font-medium rounded-lg text-sm">
             Home
           </li>
-          <li className="btn btn-sm btn-ghost px-4 h-9 font-medium rounded-md text-sm">
+          <li className="btn btn-sm btn-ghost px-4 h-9 font-medium rounded-lg text-sm">
             Auctions
           </li>
-          <li className="btn btn-sm btn-ghost px-4 h-9 font-medium rounded-md text-sm">
+          <li className="btn btn-sm btn-ghost px-4 h-9 font-medium rounded-lg text-sm">
             Categories
           </li>
-          <li className="btn btn-sm btn-ghost px-4 h-9 font-medium rounded-md text-sm">
+          <li className="btn btn-sm btn-ghost px-4 h-9 font-medium rounded-lg text-sm">
             How To Work
           </li>
         </ul>
