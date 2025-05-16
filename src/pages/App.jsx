@@ -1,9 +1,9 @@
 import { Suspense } from "react";
 import { ToastContainer } from "react-toastify";
-import Navbar from "./components/Navbar";
-import Hero from "./components/Hero";
-import Body from "./components/Body";
-import Footer from "./components/Footer";
+import Navbar from "../components/Navbar";
+import Hero from "../components/Hero";
+import Body from "../components/Body";
+import Footer from "../components/Footer";
 
 const fetchItemsPromise = async (link) => {
   const res = await fetch(link);
@@ -11,7 +11,7 @@ const fetchItemsPromise = async (link) => {
 };
 
 function App() {
-  const itemsPromise = fetchItemsPromise("items.json");
+  const itemsPromise = fetchItemsPromise("itemsData.json");
   return (
     <div>
       <header className="max-h-screen min-h-screen flex flex-col">

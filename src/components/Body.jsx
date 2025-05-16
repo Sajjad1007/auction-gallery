@@ -1,4 +1,4 @@
-import React, { use, useState } from "react";
+import { use, useState } from "react";
 import { toast, Bounce } from "react-toastify";
 import Table from "./Table";
 import Favorites from "./Favorites";

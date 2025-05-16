@@ -1,5 +1,3 @@
-import React from "react";
-
 const Footer = () => {
   return (
     <div className="bg-base-100 grid lg:place-content-center py-20 px-4 sm:px-6 lg:px-10 xl:px-14 2xl:px-20 container mx-auto">

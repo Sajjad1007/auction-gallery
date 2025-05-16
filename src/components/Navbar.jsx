@@ -1,5 +1,3 @@
-import React from "react";
-
 const Navbar = () => {
   return (
     <div className="navbar bg-base-100 py-4 pl-3 pr-4 sm:pl-5 sm:pr-6 lg:px-10 xl:px-14 2xl:px-20 container mx-auto">
